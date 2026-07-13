@@ -1,4 +1,6 @@
 import Card from "./Card"
+import leviImg from "./images/levi.webp"
+import mikasaImg from "./images/mikasa.jpg"
 
 
 function CardHolder()
@@ -6,15 +8,15 @@ function CardHolder()
 
     return <>
         <Card 
-            name="Livi" 
+            name="Levi" 
             address="Beyond the wall" 
-            imgName="levi.webp"
+            imgName={leviImg}
             />
 
         <Card 
             name="Mikasa" 
             address="With Eren" 
-            imgName="mikasa.jpg"
+            imgName={mikasaImg}
             />
             
 

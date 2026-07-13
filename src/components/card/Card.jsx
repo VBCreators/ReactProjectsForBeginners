@@ -3,7 +3,7 @@ import "./CardStyle.css"
 function Card({name, address, imgName})
 {
     return <div className="visiting-card ">
-        <img src={`./images/${imgName}`} 
+        <img src={imgName} 
         alt= {`${name}'s Profile pic`}
         className="ProfilePic" />
         <h3>Name: {name}</h3>
