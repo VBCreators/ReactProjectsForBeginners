@@ -1,0 +1,47 @@
+/* Card Container */
+.visiting-card {
+  width: 350px;
+  background: linear-gradient(135deg, #1e1e2f, #252542);
+  color: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+  margin: 15px;
+}
+
+/* Hover Effect */
+.visiting-card:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(135deg, hsl(240, 22%, 5%), #252542);
+}
+
+/* Profile Picture */
+.ProfilePic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #6c5ce7;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 10px rgba(108, 92, 231, 0.3);
+}
+
+/* Name Heading */
+.visiting-card h3 {
+  font-size: 1.4rem;
+  margin: 8px 0;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Address Text */
+.visiting-card p {
+  font-size: 0.95rem;
+  color: #b3b3cb;
+  margin: 0;
+  font-style: italic;
+}
