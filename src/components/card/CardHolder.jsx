@@ -12,7 +12,7 @@ function CardHolder()
             />
 
         <Card 
-            name="Makasa" 
+            name="Mikasa" 
             address="With Eren" 
             imgName="mikasa.jpg"
             />
