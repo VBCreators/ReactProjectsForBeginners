@@ -17,7 +17,7 @@ function Router(){
     return(
         <div className="DynamicPageComponent">
 
-            <h2 className="TitleOfLession">Card Project</h2>
+            <h2 className="TitleOfLession">Dynamic Page Component Routing</h2>
 
             <div className="RouterContainer">
                 <button className="changeButton" onClick={statusButton}>Change Page</button>
