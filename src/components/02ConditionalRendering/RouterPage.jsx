@@ -9,7 +9,6 @@ function Router(){
     const statusButton = () => {
         
         setCurrentStatus(!currentStatus);
-        console.log(currentStatus);
         
     };
 
